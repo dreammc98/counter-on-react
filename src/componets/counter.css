@@ -1,0 +1,57 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 500px;
+  height: 500px;
+  line-height: 0;
+  background-color: rgb(226, 239, 243);
+}
+
+.counter__title {
+  font-weight: 900;
+  font-size: 40px;
+  color: grey;
+}
+
+.counter__number {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.counter__btns {
+  display: flex;
+  gap: 15px
+}
+
+
+
+.counter__btn {
+  font-size: 25px;
+  color: white;
+  background: grey;
+  padding: 10px  20px;
+  border-radius: 20px;
+  border: 0;
+ 
+}
+
+.btn-blue {
+  background: blue;
+  box-shadow: 0px 4px 2px 1px rgba(0, 0, 255, .6);
+}
+
+.btn-blue:hover {
+  transform: scale(1.1);
+}
+
+.btn-red {
+  background: red;
+  box-shadow: 0px 4px 2px 1px rgba(255, 0, 0, 0.6);
+}
+
+.btn-red:hover {
+  transform: scale(1.1);
+}
